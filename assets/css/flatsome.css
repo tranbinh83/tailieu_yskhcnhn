@@ -976,8 +976,8 @@ body.framed,body.framed header,body.framed .header-wrapper,body.boxed,body.boxed
 .row .gallery,.row .row:not(.row-collapse),.container .row:not(.row-collapse),.lightbox-content .row:not(.row-collapse) {
     padding-left: 0;
     padding-right: 0;
-    margin-left: -15px;
-    margin-right: -15px;
+    /* margin-left: -15px; */
+    /* margin-right: -15px; */
     width: auto
 }
 
@@ -2484,7 +2484,7 @@ li.hide-title>a {
 .dark .button.is-form:hover,.button:hover,input[type='submit']:hover,input[type='reset']:hover,input[type='button']:hover {
     outline: none;
     opacity: 1;
-    color: #fff;
+    color: #02e6fc;
     box-shadow: inset 0 0 0 100px rgba(0,0,0,0.2)
 }
 
@@ -2544,7 +2544,7 @@ li.hide-title>a {
 }
 
 .dark .button,.dark input[type='submit'],.dark input[type='reset'],.dark input[type='button'] {
-    color: rgb(249 255 0) !important;
+    color: rgb(240 246 0) !important;
 }
 
 .dark .button.is-form,.dark input[type='submit'].is-form,.dark input[type='reset'].is-form,.dark input[type='button'].is-form {
@@ -2597,8 +2597,9 @@ input[type='submit'],input[type='submit'].button,input[type='submit'],.primary {
 
 .is-outline:hover,.primary.is-outline:hover {
     color: #fff;
-    background-color: #446084;
-    border-color: #446084
+    /* background-color: #446084; */
+    border-color: #446084;
+    color: #dbf0ff !important;
 }
 
 .success {
