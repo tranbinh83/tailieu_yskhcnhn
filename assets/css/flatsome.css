@@ -281,7 +281,7 @@ embed,iframe,object {
     }
 
     .col {
-        padding-bottom: 30px
+        padding-bottom: 0px;
     }
 }
 
@@ -519,7 +519,7 @@ embed,iframe,object {
     .medium-6 {
         max-width: 50%;
         -ms-flex-preferred-size: 50%;
-        flex-basis: 50%
+        flex-basis: 50%;
     }
 
     .medium-7 {
@@ -2544,7 +2544,7 @@ li.hide-title>a {
 }
 
 .dark .button,.dark input[type='submit'],.dark input[type='reset'],.dark input[type='button'] {
-    color: #d03030;
+    color: rgb(249 255 0) !important;
 }
 
 .dark .button.is-form,.dark input[type='submit'].is-form,.dark input[type='reset'].is-form,.dark input[type='button'].is-form {
@@ -2631,9 +2631,9 @@ input[type='submit'],input[type='submit'].button,input[type='submit'],.primary {
 }
 
 .white.is-outline:hover {
-    background-color: #fdff00 !important;
+    /* background-color: #f7f800bd !important; */
     border-color: #2f8cf3;
-    color: #0898ff !important;
+    color: #15e6e3 !important;
 }
 
 .secondary,.checkout-button,.button.checkout,.button.alt {
@@ -2659,12 +2659,12 @@ a.primary:not(.button),a.secondary:not(.button) {
 }
 
 .alert.is-link,.alert.is-outline {
-    color: #b20000
+    color: #131355
 }
 
 .alert.is-outline:hover {
-    background-color: #b20000;
-    border-color: #b20000;
+    background-color: #030281;
+    border-color: #030281;
     color: #fff
 }
 
@@ -3458,7 +3458,7 @@ img {
 }
 
 .img,.img img {
-    width: 100%
+    width: 80%;
 }
 
 .overlay {
@@ -8251,7 +8251,7 @@ li .comment-respond small {
 }
 
 .absolute-footer,html {
-    background-color: #5b5b5b
+    background-color: #131355;
 }
 
 .footer ul {
